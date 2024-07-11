@@ -1,4 +1,4 @@
-n1=int(input('Digite um numero'))
-n2=int(input('Digite mais um numero'))
+n1=int(input('Digite um numero '))
+n2=int(input('Digite mais um numero '))
 s=n1+n2
-print('a soma é', s)
+print('a soma entre {} + {} é {}'.format(n1, n2, s))
