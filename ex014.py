@@ -1,4 +1,4 @@
-real=int(input('Quantos reais você tem na carteira? \n'))
-dol=(real/(3.27))
+real=int(input('Quantos reais você tem na carteira? \nR$ '))
+dol=real/5.45
 
-print('Com {} reais você consegue comprar {} dolares'.format(real, "%.2f" %dol))
+print('Com R$ {} reais você consegue comprar US$ {} dolares'.format(real, "%.2f" %dol))
