@@ -19,4 +19,3 @@ if opcao == 1:
 if opcao == 2:
     print(pares)
     
-
