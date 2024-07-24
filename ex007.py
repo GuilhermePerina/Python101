@@ -1,3 +1,6 @@
+## Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+
+
 x = input ('Digite algo: ')
 print('qual é o tipo primitivo de {}?'.format(x), type(x))
 print('"{}" tem caractere US-ASCII de 7–bit válido?'.format(x), x.isascii())

@@ -8,3 +8,9 @@ names=[name, name1, name2, name3]
 sorteio=random.sample(names, 4)
 
 print('A ordem de apresentação será {}'.format(sorteio))
+
+#ou
+
+sorteio2=random.shuffle(names)
+
+print('A ordem de apresentação será {}'.format(names))

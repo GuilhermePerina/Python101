@@ -1,3 +1,2 @@
-from python_play.player import play_it
-play_it('c:\Users\Zakarov\Desktop\Set.mp3')
-c:\Users\Zakarov\Desktop\0.mp3
+import python_play.player
+python_play.player.play_it('0.mp3')

@@ -1,3 +1,6 @@
+#Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+
+
 name=input('Qual o nome do aluno? ')
 nota1=float(input('Sua primeira nota foi: '))
 nota2=float(input('Sua segunda nota foi: '))
