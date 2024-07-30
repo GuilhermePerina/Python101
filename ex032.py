@@ -1,3 +1,3 @@
-nome=input('Qual seu nome? \n')
+nome=input('Qual seu nome? \n').strip()
 
-print('Você tem Silva no nome? {}'.format('Silva'in(nome)))
+print('Você tem Silva no nome? {}'.format('silva' in nome.lower()))

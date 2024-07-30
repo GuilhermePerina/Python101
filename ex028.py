@@ -18,10 +18,10 @@ print('Quero somente o que começa na casa 9, vai até o final, pulando de 3 em 
 print('Quero somente o que começa na casa 9, vai até a casa 21, pulando de 2 em 2 casas:', frase[9:21:2], '\n\n')
 
 print('Ferramentas de Transformação (lista de strings são imutáveis)', '\n')
-print("Quero saber se tem e onde começa 'deo' na frase:", frase.replace('Python', 'Android'))
+print("Quero trocar a palavra 'Python' por 'Android':", frase.replace('Python', 'Android'))
 print("Quero todas as letras da frase maiúsculas:", frase.upper())
 print("Quero todas as letras da frase minúsculas:", frase.lower())
-print("Quero todas somente a primeira palavra com a primeira letra maiúscula:", frase.capitalize())
+print("Quero somente a primeira palavra com a primeira letra maiúscula:", frase.capitalize())
 print("Quero todas as primeiras letras de cada palavra maiúsculas:", frase.title())
 print("Quero que tire todos os espaços antes e depois da frase completa:", frase.strip())
 print("Quero que tire todos os espaços somente depois da frase completa:", frase.rstrip())
@@ -31,4 +31,7 @@ print('Ferramentas de Divisão', '\n')
 print("Quero dividir cada palavra em uma nova lista (dividir uma string em uma lista de palavras):", frase.split(), '\n\n')
 
 print('Ferramentas de Junção', '\n')
-print("Quero juntar todas as palavras através de um '-':", '-'.join(frase))
+print("Quero juntar todas as palavras através de um '-':", '-'.join(frase), '\n\n')
+
+print('Operador\n')
+print('Tem a palavra "Vídeo" na frase? {}'.format('Vídeo' in frase), '\n')
