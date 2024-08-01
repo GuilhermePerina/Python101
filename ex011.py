@@ -1,4 +1,4 @@
-#Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+# Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 
 
 name=input('Qual o nome do aluno? ')
