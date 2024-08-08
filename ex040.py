@@ -17,5 +17,27 @@ print('\033[7m==--'*20, '\n\33[m')
 
 lista = sorted(numeros)
 
-print('O menor número é {}'.format(lista[0]))
-print ('O maior número é {}'.format(lista[2]))
+print('\33[41mO menor número é {}\33[m'.format(lista[0]))
+print('\33[42mO maior número é {}\33[m'.format(lista[2]), '\n')
+
+print('\033[7m==--'*20, '\n\33[m')
+
+#ou
+
+if um<dois and um<tres:
+    menor=um
+if dois<um and dois<tres:
+    menor=dois
+if tres<um and tres<dois:
+    menor=tres
+
+maior=um
+if dois>um and dois>tres:
+    maior=dois
+if tres>um and tres>dois:
+    maior=tres
+    
+print('O menor número é {}'.format(menor))
+print('O maior número é {}'.format(maior), '\n')
+
+print('\033[7m==--'*20, '\n\33[m')
