@@ -1,5 +1,4 @@
 #Exercício Python 032: Faça um programa que leia um ano qualquer e mostre se ele é bissexto.
-
 # Dica: Se o ano não termina em 00, ele é bissexto caso seja divisível por 4.
 
 from datetime import date
