@@ -17,4 +17,4 @@ while repeat:
         repeat = False
     else:
         print('Este é não é um comando válido \n Digite Sim ou Não')
-        n1 = input('Quer digitar outro número? ')
+        n1 = input('Quer digitar outro número?? ')
