@@ -17,12 +17,15 @@ print ('')
 print('-=-'*20, '\n')
 print ('')
 
+#or
+
 for uow in range(0,10, 2):
     print(uow)
 print ('')
 print('-=-'*20, '\n')
 print ('')
 
+#or
 
 i=int(input('Inicio: '))
 f=int(input('Fim: '))
@@ -33,6 +36,7 @@ print ('')
 print('-=-'*20, '\n')
 print ('')
 
+#or
 
 s=0
 for soma in range (0,4):
