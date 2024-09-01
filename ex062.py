@@ -10,9 +10,9 @@ for i in range(1, n+1):
         print(i, end=' ')
 print('')
 if n==1:
-    print('O número {} NÃO é primo'.format(n))
+    print('O número {} NÃO é primo!'.format(n))
 elif count<=2:
-    print('O número {} é primo'.format(n))
+    print('O número {} é primo!'.format(n))
 else:
-    print('O número {} NÃO é primo'.format(n))
+    print('O número {} NÃO é primo!'.format(n))
 print('')
