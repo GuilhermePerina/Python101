@@ -20,6 +20,6 @@ for p in range (1,5):
     elif sexo in 'Ff' and idade<20:
         count+=1
 
-print('A média de idade do grupo é de {} anos'.format(soma/4))
-print('O homem mais velho tem {} anos e se chama {}'.format(maisVelho, homemMaisVelho))
-print('Ao todo são {} mulheres com menos de 20 anos'.format(count))
+print('A média de idade do grupo é de {} anos.'.format(soma/4))
+print('O homem mais velho tem {} anos e se chama {}.'.format(maisVelho, homemMaisVelho))
+print('Ao todo são {} mulheres com menos de 20 ano.'.format(count))
