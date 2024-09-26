@@ -30,4 +30,5 @@ while count <= 10:
     print('{} > '.format(termo), end='')
     termo+=razao
     count+=1
-print('FIM')
+
+print('FIM ')
